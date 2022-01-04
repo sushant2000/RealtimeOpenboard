@@ -1,7 +1,7 @@
 let optionsCont = document.querySelector(".options-cont");
 let optionsFlag = true;
-optionCont.addEventListener("click" , (e){
-    optionsFlag = !optionFlag;
+optionCont.addEventListener("click" , (e) => {
+    optionsFlag = !optionsFlag;
 
     if(optionsFlag) openTools();
     else closeTools();
