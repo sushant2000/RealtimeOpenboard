@@ -1,6 +1,6 @@
 let optionsCont = document.querySelector(".options-cont");
 let optionsFlag = true;
-optionCont.addEventListener("click" , (e) => {
+optionsCont.addEventListener("click" , (e) => {
     optionsFlag = !optionsFlag;
 
     if(optionsFlag) openTools();
@@ -8,14 +8,14 @@ optionCont.addEventListener("click" , (e) => {
 })
 
 function openTools(){
-    let iconsElem = optionsCont.children[0];
-    iconsElem.classList.remove("fa-times");
-    iconsElem.classList.add("fa-bars"); 
+    let iconElem = optionsCont.children[0];
+    iconElem.classList.remove("fa-times");
+    iconElem.classList.add("fa-bars"); 
 }
 
 function closeTools(){
-    let icons = optionsCont.children[0];
-    iconsElem.classList.remove("fa-bars");
-    iconsElem.classList.add("fa-times");
+    let iconElem = optionsCont.children[0];
+    iconElem.classList.remove("fa-bars");
+    iconElem.classList.add("fa-times");
 
 }
